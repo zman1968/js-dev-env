@@ -14,5 +14,5 @@ getUsers().then(result => {
       </tr>`
   });
 
-  var document.getElementById('users').innerHTML = usersBody;
+  global.document.getElementById('users').innerHTML = usersBody;
 });
